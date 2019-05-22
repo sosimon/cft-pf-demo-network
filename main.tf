@@ -34,7 +34,7 @@ provider "google-beta" {
 }
 
 resource "google_compute_network" "network" {
-  name                    = "cft-pf-demo-network"
+  name                    = "${var.network_name}"
   auto_create_subnetworks = false
 }
 

@@ -18,6 +18,10 @@ variable "credentials_path" {
   description = "Service account json auth path"
 }
 
+variable "network_name" {
+  description = "Name of VPC network"
+}
+
 variable "network_project_name" {
   description = "GCP Project hosting the VPC network"
 }
