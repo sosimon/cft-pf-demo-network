@@ -1,0 +1,5 @@
+credentials_path = "./credentials.json"
+
+network_name = "cft-pf-demo-network"
+
+network_project_name = "sso-cft-pf-demo-host-1a13"
